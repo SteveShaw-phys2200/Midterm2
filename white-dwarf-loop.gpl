@@ -1,0 +1,9 @@
+unset key
+set style data line
+
+set term png
+set o "white-dwarf-loop.png"
+set title "radius vs mass"
+set xlabel "radius"
+set ylabel "mass"
+plot [] [] "res2" u 1:2

@@ -1,0 +1,9 @@
+unset key
+set style data line
+
+set term png
+set o "white-dwarf.png"
+set title "p = p(r)"
+set xlabel "radius"
+set ylabel "density"
+plot [] [0:] "res1" u 1:3
